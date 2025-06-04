@@ -1,4 +1,10 @@
-# Sitemap <?xml version="1.0" encoding="UTF-8"?>
+echo "# Sitemap.xml" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin https://github.com/gesiane4/Sitemap.xml.git
+ git push -u origin main# Sitemap <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rendafinanceiroturbo.blogspot.com/</loc>
